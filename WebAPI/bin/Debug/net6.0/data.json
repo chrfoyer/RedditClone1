@@ -34,6 +34,11 @@
       "Id": 7,
       "UserName": "Tom",
       "Password": "password"
+    },
+    {
+      "Id": 8,
+      "UserName": "Greg3",
+      "Password": "password"
     }
   ],
   "Posts": [
@@ -66,6 +71,16 @@
       },
       "Title": "Why so barebones?",
       "Body": "Why is there never any styling to these?"
+    },
+    {
+      "Id": 4,
+      "User": {
+        "Id": 8,
+        "UserName": "Greg3",
+        "Password": "password"
+      },
+      "Title": "Recording",
+      "Body": "Why does my voice sound different when I hear the recording"
     }
   ]
 }

@@ -53,7 +53,9 @@ public class PostHttpClient : IPostService
     public async Task<Post> GetByIdAsync(int id)
     {
         HttpResponseMessage response = await client.GetAsync($"/Posts/{id}");
+        Console.Write("Reponse: " + response);
         string content = await response.Content.ReadAsStringAsync();
+        Console.Write("Content: " + content);
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(content);

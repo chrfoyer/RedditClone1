@@ -50,9 +50,8 @@ public class PostsController : ControllerBase
         }
     }
 
-    [HttpGet] 
-    [Route ("/Id")]
-    public async Task<ActionResult<Post>> GetByIdAsync([FromQuery] int id)
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<Post>> GetByIdAsync([FromRoute] int id)
     {
         try
         {
