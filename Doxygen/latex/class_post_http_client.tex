@@ -1,0 +1,58 @@
+\hypertarget{class_post_http_client}{}\doxysection{Post\+Http\+Client Class Reference}
+\label{class_post_http_client}\index{PostHttpClient@{PostHttpClient}}
+Inheritance diagram for Post\+Http\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_post_http_client}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_post_http_client_a5c16063818953666225047889bf37ad1}\label{class_post_http_client_a5c16063818953666225047889bf37ad1}} 
+{\bfseries Post\+Http\+Client} (Http\+Client client)
+\item 
+async Task$<$ \mbox{\hyperlink{class_post}{Post}} $>$ \mbox{\hyperlink{class_post_http_client_aa1dc747fa8a9ac84050f23c7c39b2cac}{Create\+Async}} (\mbox{\hyperlink{class_post_creation_dto}{Post\+Creation\+Dto}} dto)
+\item 
+async Task$<$ ICollection$<$ \mbox{\hyperlink{class_post}{Post}} $>$ $>$ \mbox{\hyperlink{class_post_http_client_aba9faa35cc708bdd911965dc80b0ab40}{Get\+Async}} (string? user\+Name, int? user\+Id, string? title\+Contains, string? body\+Contains)
+\item 
+async Task$<$ \mbox{\hyperlink{class_post}{Post}} $>$ \mbox{\hyperlink{class_post_http_client_aa2f66f342bdce254586713d8914be14e}{Get\+By\+Id\+Async}} (int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_post_http_client_aa1dc747fa8a9ac84050f23c7c39b2cac}\label{class_post_http_client_aa1dc747fa8a9ac84050f23c7c39b2cac}} 
+\index{PostHttpClient@{PostHttpClient}!CreateAsync@{CreateAsync}}
+\index{CreateAsync@{CreateAsync}!PostHttpClient@{PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{CreateAsync()}{CreateAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_post}{Post}} $>$ Post\+Http\+Client.\+Create\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_post_creation_dto}{Post\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_post_service}{IPost\+Service}}.
+
+\mbox{\Hypertarget{class_post_http_client_aba9faa35cc708bdd911965dc80b0ab40}\label{class_post_http_client_aba9faa35cc708bdd911965dc80b0ab40}} 
+\index{PostHttpClient@{PostHttpClient}!GetAsync@{GetAsync}}
+\index{GetAsync@{GetAsync}!PostHttpClient@{PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{GetAsync()}{GetAsync()}}
+{\footnotesize\ttfamily async Task$<$ ICollection$<$ \mbox{\hyperlink{class_post}{Post}} $>$ $>$ Post\+Http\+Client.\+Get\+Async (\begin{DoxyParamCaption}\item[{string?}]{user\+Name,  }\item[{int?}]{user\+Id,  }\item[{string?}]{title\+Contains,  }\item[{string?}]{body\+Contains }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_post_service}{IPost\+Service}}.
+
+\mbox{\Hypertarget{class_post_http_client_aa2f66f342bdce254586713d8914be14e}\label{class_post_http_client_aa2f66f342bdce254586713d8914be14e}} 
+\index{PostHttpClient@{PostHttpClient}!GetByIdAsync@{GetByIdAsync}}
+\index{GetByIdAsync@{GetByIdAsync}!PostHttpClient@{PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{GetByIdAsync()}{GetByIdAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_post}{Post}} $>$ Post\+Http\+Client.\+Get\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_post_service}{IPost\+Service}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thanks/\+Rider\+Projects/\+Reddit\+Clone1/\+Http\+Clients/\+Implementations/Post\+Http\+Client.\+cs\end{DoxyCompactItemize}

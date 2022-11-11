@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_i_post_logic" kind="interface" language="C#" prot="public">
+    <compoundname>IPostLogic</compoundname>
+    <derivedcompoundref refid="class_post_logic" prot="public" virt="non-virtual">PostLogic</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_post_logic_1a685c8d9006f9d26f233b42f546701af0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; IPostLogic.CreateAsync</definition>
+        <argsstring>(PostCreationDto postToCreate)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>IPostLogic.CreateAsync</qualifiedname>
+        <reimplementedby refid="class_post_logic_1aad986f97f222899de0087e3503995045">CreateAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>postToCreate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/LogicInterfaces/IPostLogic.cs" line="8" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_post_logic_1a90b4ac8b9c7d19ab3116b6116f8fa08a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; Post &gt; &gt; IPostLogic.GetAsync</definition>
+        <argsstring>(SearchPostParametersDto searchParameters)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>IPostLogic.GetAsync</qualifiedname>
+        <reimplementedby refid="class_post_logic_1a0c5da1784302615cc8e2b0ed0c391c7b">GetAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_search_post_parameters_dto" kindref="compound">SearchPostParametersDto</ref></type>
+          <declname>searchParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/LogicInterfaces/IPostLogic.cs" line="9" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_post_logic_1a7880fc0e8ab9a35d7af8a83f185c4979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_post" kindref="compound">Post</ref>?&gt;</type>
+        <definition>Task&lt; Post?&gt; IPostLogic.GetByIdAsync</definition>
+        <argsstring>(int postId)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>IPostLogic.GetByIdAsync</qualifiedname>
+        <reimplementedby refid="class_post_logic_1a1f7225979137e08b2f162bcf3d724a9c">GetByIdAsync</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>postId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/LogicInterfaces/IPostLogic.cs" line="10" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IPostLogic</label>
+        <link refid="interface_i_post_logic"/>
+      </node>
+      <node id="2">
+        <label>PostLogic</label>
+        <link refid="class_post_logic"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/LogicInterfaces/IPostLogic.cs" line="6" column="18" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/LogicInterfaces/IPostLogic.cs" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interface_i_post_logic_1a685c8d9006f9d26f233b42f546701af0" prot="public" virt="non-virtual"><scope>IPostLogic</scope><name>CreateAsync</name></member>
+      <member refid="interface_i_post_logic_1a90b4ac8b9c7d19ab3116b6116f8fa08a" prot="public" virt="non-virtual"><scope>IPostLogic</scope><name>GetAsync</name></member>
+      <member refid="interface_i_post_logic_1a7880fc0e8ab9a35d7af8a83f185c4979" prot="public" virt="non-virtual"><scope>IPostLogic</scope><name>GetByIdAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

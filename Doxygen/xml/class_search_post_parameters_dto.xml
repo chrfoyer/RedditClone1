@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_search_post_parameters_dto" kind="class" language="C#" prot="public">
+    <compoundname>SearchPostParametersDto</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_search_post_parameters_dto_1ab9e51950101feaffcc765d94864f0e3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? SearchPostParametersDto.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <qualifiedname>SearchPostParametersDto.UserName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" line="5" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_search_post_parameters_dto_1aee13117b8e1999392fa1c627f46d93fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? SearchPostParametersDto.UserId</definition>
+        <argsstring></argsstring>
+        <name>UserId</name>
+        <qualifiedname>SearchPostParametersDto.UserId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" line="6" column="16" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_search_post_parameters_dto_1a78ac3c9d06e437a928cf6c51b85e76ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? SearchPostParametersDto.TitleContains</definition>
+        <argsstring></argsstring>
+        <name>TitleContains</name>
+        <qualifiedname>SearchPostParametersDto.TitleContains</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" line="7" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_search_post_parameters_dto_1af23f1cb31fdda077d787229f3edb4fb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? SearchPostParametersDto.BodyContains</definition>
+        <argsstring></argsstring>
+        <name>BodyContains</name>
+        <qualifiedname>SearchPostParametersDto.BodyContains</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" line="8" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_search_post_parameters_dto_1ab73ec42e5b3ba5063a7baff5dddf6a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SearchPostParametersDto.SearchPostParametersDto</definition>
+        <argsstring>(string? userName, int? userId, string? titleContains, string? bodyContains)</argsstring>
+        <name>SearchPostParametersDto</name>
+        <qualifiedname>SearchPostParametersDto.SearchPostParametersDto</qualifiedname>
+        <param>
+          <type>string?</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>bodyContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" line="10" column="12" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" line="3" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/SearchPostParametersDto.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_search_post_parameters_dto_1af23f1cb31fdda077d787229f3edb4fb2" prot="public" virt="non-virtual"><scope>SearchPostParametersDto</scope><name>BodyContains</name></member>
+      <member refid="class_search_post_parameters_dto_1ab73ec42e5b3ba5063a7baff5dddf6a19" prot="public" virt="non-virtual"><scope>SearchPostParametersDto</scope><name>SearchPostParametersDto</name></member>
+      <member refid="class_search_post_parameters_dto_1a78ac3c9d06e437a928cf6c51b85e76ca" prot="public" virt="non-virtual"><scope>SearchPostParametersDto</scope><name>TitleContains</name></member>
+      <member refid="class_search_post_parameters_dto_1aee13117b8e1999392fa1c627f46d93fb" prot="public" virt="non-virtual"><scope>SearchPostParametersDto</scope><name>UserId</name></member>
+      <member refid="class_search_post_parameters_dto_1ab9e51950101feaffcc765d94864f0e3e" prot="public" virt="non-virtual"><scope>SearchPostParametersDto</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

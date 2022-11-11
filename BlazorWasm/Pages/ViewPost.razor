@@ -1,4 +1,4 @@
-﻿@page "/ViewPost/{id}"
+﻿@page "/ViewPost/{Id}"
 @using global::Domain
 @using HttpClients.ClientInterfaces
 @using Domain.Models
@@ -6,16 +6,16 @@
 
 
 <div class="card">
-    <div class="card-title d-flex justify-content-between">
-        <h6>@title</h6>
-        <div>
-            <label class="text-sm">Username: @username</label>
+        <div class="card-title d-flex justify-content-between">
+            <h6>@title</h6>
+            <div>
+                <label class="text-sm">Username: @username</label>
+            </div>
+        </div>
+        <div class="body">
+            @body
         </div>
     </div>
-    <div class="body">
-        @body
-    </div>
-</div>
   
 @code {
 
@@ -26,6 +26,7 @@
     private string body="";
     private string username="";
     private string msg;
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -39,9 +40,8 @@
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            Console.WriteLine(e.StackTrace);
             msg = "";
         }
     }
-
 }

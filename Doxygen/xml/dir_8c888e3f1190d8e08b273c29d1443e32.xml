@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_8c888e3f1190d8e08b273c29d1443e32" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/Domain</compoundname>
+    <innerdir refid="dir_d301dbef5846b5e1486059a923b37a47">C:/Users/thanks/RiderProjects/RedditClone1/Domain/Auth</innerdir>
+    <innerdir refid="dir_142f28ba630de44da101f87319caa406">C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs</innerdir>
+    <innerdir refid="dir_e9bf0592b8ba5807bfcce7cbd6b0123f">C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models</innerdir>
+    <innerdir refid="dir_bbedd37c473ae4a8226c8dcbf7c99165">C:/Users/thanks/RiderProjects/RedditClone1/Domain/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/"/>
+  </compounddef>
+</doxygen>

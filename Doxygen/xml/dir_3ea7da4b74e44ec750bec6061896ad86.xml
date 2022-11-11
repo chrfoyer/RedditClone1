@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_3ea7da4b74e44ec750bec6061896ad86" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm</compoundname>
+    <innerdir refid="dir_94c62ea721aa8691e24bb771ca57dddf">C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/Auth</innerdir>
+    <innerdir refid="dir_e2bd4f1d9df2ebce5a298c645d31b56a">C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/obj</innerdir>
+    <innerdir refid="dir_802071c9c7e072ba1057cfe172a6165b">C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/wwwroot</innerdir>
+    <innerfile refid="_blazor_wasm_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_user" kind="class" language="C#" prot="public">
+    <compoundname>User</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_user_1a12fe165dbd627b74b91752d3ffdd6750" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int User.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>User.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" line="5" column="16" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_1ac8a997773f20fc0ee0ad486788934c9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string User.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <qualifiedname>User.UserName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" line="6" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_1ac8c2f1cd6fbc79af39bd0fa68d085bbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string User.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>User.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" line="7" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_user_1ad3c79f49a0bc3a82173315bc7608e19d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>User.User</definition>
+        <argsstring>(string userName, string password)</argsstring>
+        <name>User</name>
+        <qualifiedname>User.User</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" line="9" column="12" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" line="3" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/User.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_user_1a12fe165dbd627b74b91752d3ffdd6750" prot="public" virt="non-virtual"><scope>User</scope><name>Id</name></member>
+      <member refid="class_user_1ac8c2f1cd6fbc79af39bd0fa68d085bbb" prot="public" virt="non-virtual"><scope>User</scope><name>Password</name></member>
+      <member refid="class_user_1ad3c79f49a0bc3a82173315bc7608e19d" prot="public" virt="non-virtual"><scope>User</scope><name>User</name></member>
+      <member refid="class_user_1ac8a997773f20fc0ee0ad486788934c9c" prot="public" virt="non-virtual"><scope>User</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

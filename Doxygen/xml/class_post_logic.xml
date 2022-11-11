@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_post_logic" kind="class" language="C#" prot="public">
+    <compoundname>PostLogic</compoundname>
+    <basecompoundref refid="interface_i_post_logic" prot="public" virt="non-virtual">IPostLogic</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_logic_1a2465a33a8c57d0fe922a97dc7d3c8355" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_i_post_dao" kindref="compound">IPostDao</ref></type>
+        <definition>readonly IPostDao PostLogic.postDao</definition>
+        <argsstring></argsstring>
+        <name>postDao</name>
+        <qualifiedname>PostLogic.postDao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="10" column="31" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_post_logic_1a716e1df88837f8204a86b3cbe26c4165" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_i_user_dao" kindref="compound">IUserDao</ref></type>
+        <definition>readonly IUserDao PostLogic.userDao</definition>
+        <argsstring></argsstring>
+        <name>userDao</name>
+        <qualifiedname>PostLogic.userDao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="11" column="31" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_logic_1afc109637160da1028fd09dd7dc60ae7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PostLogic.PostLogic</definition>
+        <argsstring>(IPostDao postDao, IUserDao userDao)</argsstring>
+        <name>PostLogic</name>
+        <qualifiedname>PostLogic.PostLogic</qualifiedname>
+        <param>
+          <type><ref refid="interface_i_post_dao" kindref="compound">IPostDao</ref></type>
+          <declname>postDao</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_i_user_dao" kindref="compound">IUserDao</ref></type>
+          <declname>userDao</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="13" column="12" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_logic_1aad986f97f222899de0087e3503995045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>async Task&lt; Post &gt; PostLogic.CreateAsync</definition>
+        <argsstring>(PostCreationDto postToCreate)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>PostLogic.CreateAsync</qualifiedname>
+        <reimplements refid="interface_i_post_logic_1a685c8d9006f9d26f233b42f546701af0">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>postToCreate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="19" column="23" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_logic_1a0c5da1784302615cc8e2b0ed0c391c7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; Post &gt; &gt; PostLogic.GetAsync</definition>
+        <argsstring>(SearchPostParametersDto searchParameters)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>PostLogic.GetAsync</qualifiedname>
+        <reimplements refid="interface_i_post_logic_1a90b4ac8b9c7d19ab3116b6116f8fa08a">GetAsync</reimplements>
+        <param>
+          <type><ref refid="class_search_post_parameters_dto" kindref="compound">SearchPostParametersDto</ref></type>
+          <declname>searchParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="29" column="17" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_logic_1a1f7225979137e08b2f162bcf3d724a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_post" kindref="compound">Post</ref>?&gt;</type>
+        <definition>Task&lt; Post?&gt; PostLogic.GetByIdAsync</definition>
+        <argsstring>(int postId)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>PostLogic.GetByIdAsync</qualifiedname>
+        <reimplements refid="interface_i_post_logic_1a7880fc0e8ab9a35d7af8a83f185c4979">GetByIdAsync</reimplements>
+        <param>
+          <type>int</type>
+          <declname>postId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="34" column="17" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_post_logic_1a31fef999ca37307314059cdccf14e469" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PostLogic.ValidateData</definition>
+        <argsstring>(PostCreationDto postToCreate)</argsstring>
+        <name>ValidateData</name>
+        <qualifiedname>PostLogic.ValidateData</qualifiedname>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>postToCreate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="39" column="25" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IPostLogic</label>
+        <link refid="interface_i_post_logic"/>
+      </node>
+      <node id="1">
+        <label>PostLogic</label>
+        <link refid="class_post_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IPostLogic</label>
+        <link refid="interface_i_post_logic"/>
+      </node>
+      <node id="1">
+        <label>PostLogic</label>
+        <link refid="class_post_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" line="8" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/PostLogic.cs" bodystart="9" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_post_logic_1aad986f97f222899de0087e3503995045" prot="public" virt="non-virtual"><scope>PostLogic</scope><name>CreateAsync</name></member>
+      <member refid="class_post_logic_1a0c5da1784302615cc8e2b0ed0c391c7b" prot="public" virt="non-virtual"><scope>PostLogic</scope><name>GetAsync</name></member>
+      <member refid="class_post_logic_1a1f7225979137e08b2f162bcf3d724a9c" prot="public" virt="non-virtual"><scope>PostLogic</scope><name>GetByIdAsync</name></member>
+      <member refid="class_post_logic_1a2465a33a8c57d0fe922a97dc7d3c8355" prot="private" virt="non-virtual"><scope>PostLogic</scope><name>postDao</name></member>
+      <member refid="class_post_logic_1afc109637160da1028fd09dd7dc60ae7b" prot="public" virt="non-virtual"><scope>PostLogic</scope><name>PostLogic</name></member>
+      <member refid="class_post_logic_1a716e1df88837f8204a86b3cbe26c4165" prot="private" virt="non-virtual"><scope>PostLogic</scope><name>userDao</name></member>
+      <member refid="class_post_logic_1a31fef999ca37307314059cdccf14e469" prot="private" virt="non-virtual"><scope>PostLogic</scope><name>ValidateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

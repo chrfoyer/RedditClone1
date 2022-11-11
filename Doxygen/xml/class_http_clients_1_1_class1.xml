@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_http_clients_1_1_class1" kind="class" language="C#" prot="public">
+    <compoundname>HttpClients::Class1</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Class1.cs" line="3" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Class1.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

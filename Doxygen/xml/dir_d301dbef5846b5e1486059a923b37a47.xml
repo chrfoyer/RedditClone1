@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_d301dbef5846b5e1486059a923b37a47" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/Domain/Auth</compoundname>
+    <innerfile refid="_authorization_policies_8cs">AuthorizationPolicies.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Auth/"/>
+  </compounddef>
+</doxygen>

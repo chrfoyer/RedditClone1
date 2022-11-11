@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_eb1463819d84903762eb6f59cc0c4383" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/Application</compoundname>
+    <innerdir refid="dir_7af43466560a4063ec0b17c5e398412a">C:/Users/thanks/RiderProjects/RedditClone1/Application/DaoInterfaces</innerdir>
+    <innerdir refid="dir_561dec857dbd2c71c4d5477b92f4dd0e">C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic</innerdir>
+    <innerdir refid="dir_9564bbb6a523553f1632a64e4bbdc057">C:/Users/thanks/RiderProjects/RedditClone1/Application/LogicInterfaces</innerdir>
+    <innerdir refid="dir_d9e8db57fd4192eb1e34a3c47b60ba7e">C:/Users/thanks/RiderProjects/RedditClone1/Application/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/"/>
+  </compounddef>
+</doxygen>

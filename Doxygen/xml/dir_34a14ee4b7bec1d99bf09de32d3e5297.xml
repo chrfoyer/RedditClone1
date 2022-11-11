@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_34a14ee4b7bec1d99bf09de32d3e5297" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/FileData/DAOs</compoundname>
+    <innerfile refid="_post_file_dao_8cs">PostFileDao.cs</innerfile>
+    <innerfile refid="_user_file_dao_8cs">UserFileDao.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/FileData/DAOs/"/>
+  </compounddef>
+</doxygen>

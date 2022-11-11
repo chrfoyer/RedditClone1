@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_94c62ea721aa8691e24bb771ca57dddf" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/Auth</compoundname>
+    <innerfile refid="_custom_auth_provider_8cs">CustomAuthProvider.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/Auth/"/>
+  </compounddef>
+</doxygen>

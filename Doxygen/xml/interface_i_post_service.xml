@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_i_post_service" kind="interface" language="C#" prot="public">
+    <compoundname>IPostService</compoundname>
+    <derivedcompoundref refid="class_post_http_client" prot="public" virt="non-virtual">PostHttpClient</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_post_service_1aab6e68459e799442503dc98be7799a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; IPostService.CreateAsync</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>IPostService.CreateAsync</qualifiedname>
+        <reimplementedby refid="class_post_http_client_1aa1dc747fa8a9ac84050f23c7c39b2cac">CreateAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/ClientInterfaces/IPostService.cs" line="8" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_post_service_1a4db09eafd9f0cb19f921c8d0c2ffc6f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; ICollection&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>Task&lt; ICollection&lt; Post &gt; &gt; IPostService.GetAsync</definition>
+        <argsstring>(string? userName, int? userId, string? titleContains, string? bodyContains)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>IPostService.GetAsync</qualifiedname>
+        <reimplementedby refid="class_post_http_client_1aba9faa35cc708bdd911965dc80b0ab40">GetAsync</reimplementedby>
+        <param>
+          <type>string?</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>bodyContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/ClientInterfaces/IPostService.cs" line="9" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_post_service_1abdcfb98de10e2e41cdf15e4bfcf879b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; IPostService.GetByIdAsync</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>IPostService.GetByIdAsync</qualifiedname>
+        <reimplementedby refid="class_post_http_client_1aa2f66f342bdce254586713d8914be14e">GetByIdAsync</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/ClientInterfaces/IPostService.cs" line="15" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IPostService</label>
+        <link refid="interface_i_post_service"/>
+      </node>
+      <node id="2">
+        <label>PostHttpClient</label>
+        <link refid="class_post_http_client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/ClientInterfaces/IPostService.cs" line="6" column="18" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/ClientInterfaces/IPostService.cs" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interface_i_post_service_1aab6e68459e799442503dc98be7799a8a" prot="public" virt="non-virtual"><scope>IPostService</scope><name>CreateAsync</name></member>
+      <member refid="interface_i_post_service_1a4db09eafd9f0cb19f921c8d0c2ffc6f8" prot="public" virt="non-virtual"><scope>IPostService</scope><name>GetAsync</name></member>
+      <member refid="interface_i_post_service_1abdcfb98de10e2e41cdf15e4bfcf879b2" prot="public" virt="non-virtual"><scope>IPostService</scope><name>GetByIdAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

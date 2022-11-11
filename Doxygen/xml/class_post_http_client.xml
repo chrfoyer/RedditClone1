@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_post_http_client" kind="class" language="C#" prot="public">
+    <compoundname>PostHttpClient</compoundname>
+    <basecompoundref refid="interface_i_post_service" prot="public" virt="non-virtual">IPostService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_http_client_1a26782ca121f5f5be19f11d5ed117f839" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient PostHttpClient.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>PostHttpClient.client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="11" column="33" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_http_client_1a5c16063818953666225047889bf37ad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PostHttpClient.PostHttpClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>PostHttpClient</name>
+        <qualifiedname>PostHttpClient.PostHttpClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="13" column="12" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_http_client_1aa1dc747fa8a9ac84050f23c7c39b2cac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>async Task&lt; Post &gt; PostHttpClient.CreateAsync</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>PostHttpClient.CreateAsync</qualifiedname>
+        <reimplements refid="interface_i_post_service_1aab6e68459e799442503dc98be7799a8a">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="18" column="23" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="18" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_http_client_1aba9faa35cc708bdd911965dc80b0ab40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ICollection&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ICollection&lt; Post &gt; &gt; PostHttpClient.GetAsync</definition>
+        <argsstring>(string? userName, int? userId, string? titleContains, string? bodyContains)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>PostHttpClient.GetAsync</qualifiedname>
+        <reimplements refid="interface_i_post_service_1a4db09eafd9f0cb19f921c8d0c2ffc6f8">GetAsync</reimplements>
+        <param>
+          <type>string?</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>bodyContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="35" column="23" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="35" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_http_client_1aa2f66f342bdce254586713d8914be14e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>async Task&lt; Post &gt; PostHttpClient.GetByIdAsync</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>PostHttpClient.GetByIdAsync</qualifiedname>
+        <reimplements refid="interface_i_post_service_1abdcfb98de10e2e41cdf15e4bfcf879b2">GetByIdAsync</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="53" column="23" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="53" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_post_http_client_1ac00a91b41a5cef507659ffd62a7a4bd2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string PostHttpClient.ConstructQuery</definition>
+        <argsstring>(string? userName, int? userId, string? titleContains, string? bodyContains)</argsstring>
+        <name>ConstructQuery</name>
+        <qualifiedname>PostHttpClient.ConstructQuery</qualifiedname>
+        <param>
+          <type>string?</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>bodyContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="71" column="27" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="71" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IPostService</label>
+        <link refid="interface_i_post_service"/>
+      </node>
+      <node id="1">
+        <label>PostHttpClient</label>
+        <link refid="class_post_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IPostService</label>
+        <link refid="interface_i_post_service"/>
+      </node>
+      <node id="1">
+        <label>PostHttpClient</label>
+        <link refid="class_post_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" line="9" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/HttpClients/Implementations/PostHttpClient.cs" bodystart="10" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_post_http_client_1a26782ca121f5f5be19f11d5ed117f839" prot="private" virt="non-virtual"><scope>PostHttpClient</scope><name>client</name></member>
+      <member refid="class_post_http_client_1ac00a91b41a5cef507659ffd62a7a4bd2" prot="private" virt="non-virtual"><scope>PostHttpClient</scope><name>ConstructQuery</name></member>
+      <member refid="class_post_http_client_1aa1dc747fa8a9ac84050f23c7c39b2cac" prot="public" virt="non-virtual"><scope>PostHttpClient</scope><name>CreateAsync</name></member>
+      <member refid="class_post_http_client_1aba9faa35cc708bdd911965dc80b0ab40" prot="public" virt="non-virtual"><scope>PostHttpClient</scope><name>GetAsync</name></member>
+      <member refid="class_post_http_client_1aa2f66f342bdce254586713d8914be14e" prot="public" virt="non-virtual"><scope>PostHttpClient</scope><name>GetByIdAsync</name></member>
+      <member refid="class_post_http_client_1a5c16063818953666225047889bf37ad1" prot="public" virt="non-virtual"><scope>PostHttpClient</scope><name>PostHttpClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

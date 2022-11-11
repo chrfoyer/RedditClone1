@@ -1,0 +1,58 @@
+\hypertarget{class_post_logic}{}\doxysection{Post\+Logic Class Reference}
+\label{class_post_logic}\index{PostLogic@{PostLogic}}
+Inheritance diagram for Post\+Logic\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_post_logic}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_post_logic_afc109637160da1028fd09dd7dc60ae7b}\label{class_post_logic_afc109637160da1028fd09dd7dc60ae7b}} 
+{\bfseries Post\+Logic} (\mbox{\hyperlink{interface_i_post_dao}{IPost\+Dao}} post\+Dao, \mbox{\hyperlink{interface_i_user_dao}{IUser\+Dao}} user\+Dao)
+\item 
+async Task$<$ \mbox{\hyperlink{class_post}{Post}} $>$ \mbox{\hyperlink{class_post_logic_aad986f97f222899de0087e3503995045}{Create\+Async}} (\mbox{\hyperlink{class_post_creation_dto}{Post\+Creation\+Dto}} post\+To\+Create)
+\item 
+Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_post}{Post}} $>$ $>$ \mbox{\hyperlink{class_post_logic_a0c5da1784302615cc8e2b0ed0c391c7b}{Get\+Async}} (\mbox{\hyperlink{class_search_post_parameters_dto}{Search\+Post\+Parameters\+Dto}} search\+Parameters)
+\item 
+Task$<$ \mbox{\hyperlink{class_post}{Post}}?$>$ \mbox{\hyperlink{class_post_logic_a1f7225979137e08b2f162bcf3d724a9c}{Get\+By\+Id\+Async}} (int post\+Id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_post_logic_aad986f97f222899de0087e3503995045}\label{class_post_logic_aad986f97f222899de0087e3503995045}} 
+\index{PostLogic@{PostLogic}!CreateAsync@{CreateAsync}}
+\index{CreateAsync@{CreateAsync}!PostLogic@{PostLogic}}
+\doxysubsubsection{\texorpdfstring{CreateAsync()}{CreateAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_post}{Post}} $>$ Post\+Logic.\+Create\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_post_creation_dto}{Post\+Creation\+Dto}}}]{post\+To\+Create }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_post_logic}{IPost\+Logic}}.
+
+\mbox{\Hypertarget{class_post_logic_a0c5da1784302615cc8e2b0ed0c391c7b}\label{class_post_logic_a0c5da1784302615cc8e2b0ed0c391c7b}} 
+\index{PostLogic@{PostLogic}!GetAsync@{GetAsync}}
+\index{GetAsync@{GetAsync}!PostLogic@{PostLogic}}
+\doxysubsubsection{\texorpdfstring{GetAsync()}{GetAsync()}}
+{\footnotesize\ttfamily Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_post}{Post}} $>$ $>$ Post\+Logic.\+Get\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_search_post_parameters_dto}{Search\+Post\+Parameters\+Dto}}}]{search\+Parameters }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_post_logic}{IPost\+Logic}}.
+
+\mbox{\Hypertarget{class_post_logic_a1f7225979137e08b2f162bcf3d724a9c}\label{class_post_logic_a1f7225979137e08b2f162bcf3d724a9c}} 
+\index{PostLogic@{PostLogic}!GetByIdAsync@{GetByIdAsync}}
+\index{GetByIdAsync@{GetByIdAsync}!PostLogic@{PostLogic}}
+\doxysubsubsection{\texorpdfstring{GetByIdAsync()}{GetByIdAsync()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_post}{Post}}?$>$ Post\+Logic.\+Get\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{int}]{post\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_post_logic}{IPost\+Logic}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thanks/\+Rider\+Projects/\+Reddit\+Clone1/\+Application/\+Logic/Post\+Logic.\+cs\end{DoxyCompactItemize}

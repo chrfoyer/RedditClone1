@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_142f28ba630de44da101f87319caa406" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs</compoundname>
+    <innerfile refid="_post_creation_dto_8cs">PostCreationDto.cs</innerfile>
+    <innerfile refid="_search_post_parameters_dto_8cs">SearchPostParametersDto.cs</innerfile>
+    <innerfile refid="_user_creation_dto_8cs">UserCreationDto.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/"/>
+  </compounddef>
+</doxygen>

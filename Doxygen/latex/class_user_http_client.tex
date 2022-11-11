@@ -1,0 +1,91 @@
+\hypertarget{class_user_http_client}{}\doxysection{User\+Http\+Client Class Reference}
+\label{class_user_http_client}\index{UserHttpClient@{UserHttpClient}}
+Inheritance diagram for User\+Http\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_user_http_client}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_user_http_client_afc094c09300a35e083727770a53dfc9f}\label{class_user_http_client_afc094c09300a35e083727770a53dfc9f}} 
+{\bfseries User\+Http\+Client} (Http\+Client client)
+\item 
+async Task \mbox{\hyperlink{class_user_http_client_a81ebd2482603f7720df12de26ab25b2e}{Login\+Async}} (\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}} dto)
+\item 
+Task \mbox{\hyperlink{class_user_http_client_a70545f5857e7551cc893338fa291e404}{Logout\+Async}} ()
+\item 
+async Task$<$ \mbox{\hyperlink{class_user}{User}} $>$ \mbox{\hyperlink{class_user_http_client_aa35c24ce56e4b8e97d4b23d2937a85db}{Create}} (\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}} dto)
+\item 
+Task$<$ Claims\+Principal $>$ \mbox{\hyperlink{class_user_http_client_aef77edbad40f225cea7adfcc0c60a2ad}{Get\+Auth\+Async}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_user_http_client_a37e2aedbb9dcda57893c4ec71f3cadb1}\label{class_user_http_client_a37e2aedbb9dcda57893c4ec71f3cadb1}} 
+static ? string {\bfseries Jwt} = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Action$<$ Claims\+Principal $>$ \mbox{\hyperlink{class_user_http_client_a07aaf179aa80cfda1403d308f959a266}{On\+Auth\+State\+Changed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_user_http_client_aa35c24ce56e4b8e97d4b23d2937a85db}\label{class_user_http_client_aa35c24ce56e4b8e97d4b23d2937a85db}} 
+\index{UserHttpClient@{UserHttpClient}!Create@{Create}}
+\index{Create@{Create}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_user}{User}} $>$ User\+Http\+Client.\+Create (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service}{IUser\+Service}}.
+
+\mbox{\Hypertarget{class_user_http_client_aef77edbad40f225cea7adfcc0c60a2ad}\label{class_user_http_client_aef77edbad40f225cea7adfcc0c60a2ad}} 
+\index{UserHttpClient@{UserHttpClient}!GetAuthAsync@{GetAuthAsync}}
+\index{GetAuthAsync@{GetAuthAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{GetAuthAsync()}{GetAuthAsync()}}
+{\footnotesize\ttfamily Task$<$ Claims\+Principal $>$ User\+Http\+Client.\+Get\+Auth\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service}{IUser\+Service}}.
+
+\mbox{\Hypertarget{class_user_http_client_a81ebd2482603f7720df12de26ab25b2e}\label{class_user_http_client_a81ebd2482603f7720df12de26ab25b2e}} 
+\index{UserHttpClient@{UserHttpClient}!LoginAsync@{LoginAsync}}
+\index{LoginAsync@{LoginAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{LoginAsync()}{LoginAsync()}}
+{\footnotesize\ttfamily async Task User\+Http\+Client.\+Login\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service}{IUser\+Service}}.
+
+\mbox{\Hypertarget{class_user_http_client_a70545f5857e7551cc893338fa291e404}\label{class_user_http_client_a70545f5857e7551cc893338fa291e404}} 
+\index{UserHttpClient@{UserHttpClient}!LogoutAsync@{LogoutAsync}}
+\index{LogoutAsync@{LogoutAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{LogoutAsync()}{LogoutAsync()}}
+{\footnotesize\ttfamily Task User\+Http\+Client.\+Logout\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service}{IUser\+Service}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_user_http_client_a07aaf179aa80cfda1403d308f959a266}\label{class_user_http_client_a07aaf179aa80cfda1403d308f959a266}} 
+\index{UserHttpClient@{UserHttpClient}!OnAuthStateChanged@{OnAuthStateChanged}}
+\index{OnAuthStateChanged@{OnAuthStateChanged}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{OnAuthStateChanged}{OnAuthStateChanged}}
+{\footnotesize\ttfamily Action$<$Claims\+Principal$>$ User\+Http\+Client.\+On\+Auth\+State\+Changed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service}{IUser\+Service}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thanks/\+Rider\+Projects/\+Reddit\+Clone1/\+Http\+Clients/\+Implementations/User\+Http\+Client.\+cs\end{DoxyCompactItemize}

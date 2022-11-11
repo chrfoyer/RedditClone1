@@ -820,7 +820,6 @@ C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\build-gz\
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\blazor.boot.json
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\scopedcss\Pages\UIComponents\FancyCheckBox.razor.rz.scp.css
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\scopedcss\Pages\UIComponents\Modal.razor.rz.scp.css
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
@@ -836,4 +835,3 @@ C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\bin\Debug\net6.0\wwwroot\_
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\build-gz\jJShG0rO.gz
 C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css
-C:\Users\thanks\RiderProjects\RedditClone1\BlazorWasm\obj\Debug\net6.0\scopedcss\Pages\CreatePost.razor.rz.scp.css

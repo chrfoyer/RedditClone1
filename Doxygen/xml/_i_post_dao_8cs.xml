@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_i_post_dao_8cs" kind="file" language="C#">
+    <compoundname>IPostDao.cs</compoundname>
+    <innerclass refid="interface_i_post_dao" prot="public">IPostDao</innerclass>
+    <innernamespace refid="namespace_domain_1_1_d_t_os">Domain::DTOs</innernamespace>
+    <innernamespace refid="namespace_domain_1_1_models">Domain::Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Domain.DTOs;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Domain.Models;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Application.DaoInterfaces;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="interface_i_post_dao" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_post_dao" kindref="compound">IPostDao</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;Post&gt;<sp/>CreateAsync(<ref refid="class_post" kindref="compound">Post</ref><sp/>post);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;IEnumerable&lt;Post&gt;&gt;<sp/>GetAsync(<ref refid="class_search_post_parameters_dto" kindref="compound">SearchPostParametersDto</ref><sp/>searchParameters);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;Post?&gt;<sp/>GetByIdAsync(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>postId);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/DaoInterfaces/IPostDao.cs"/>
+  </compounddef>
+</doxygen>

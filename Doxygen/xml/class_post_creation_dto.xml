@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_post_creation_dto" kind="class" language="C#" prot="public">
+    <compoundname>PostCreationDto</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_post_creation_dto_1a633977ac0debb9a76e1d1ffaf8851944" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PostCreationDto.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>PostCreationDto.Username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" line="7" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_post_creation_dto_1a2d9c384c8ad1cc0e773be84563516b8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PostCreationDto.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>PostCreationDto.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" line="8" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_post_creation_dto_1a4b0ba73d96b9200d7ecb5423336b79cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PostCreationDto.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>PostCreationDto.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" line="9" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_creation_dto_1a8041d516e83fcf73cf131063562de6e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PostCreationDto.PostCreationDto</definition>
+        <argsstring>(string username, string title, string body)</argsstring>
+        <name>PostCreationDto</name>
+        <qualifiedname>PostCreationDto.PostCreationDto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" line="11" column="12" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" line="5" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/DTOs/PostCreationDto.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_post_creation_dto_1a4b0ba73d96b9200d7ecb5423336b79cb" prot="public" virt="non-virtual"><scope>PostCreationDto</scope><name>Body</name></member>
+      <member refid="class_post_creation_dto_1a8041d516e83fcf73cf131063562de6e9" prot="public" virt="non-virtual"><scope>PostCreationDto</scope><name>PostCreationDto</name></member>
+      <member refid="class_post_creation_dto_1a2d9c384c8ad1cc0e773be84563516b8d" prot="public" virt="non-virtual"><scope>PostCreationDto</scope><name>Title</name></member>
+      <member refid="class_post_creation_dto_1a633977ac0debb9a76e1d1ffaf8851944" prot="public" virt="non-virtual"><scope>PostCreationDto</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

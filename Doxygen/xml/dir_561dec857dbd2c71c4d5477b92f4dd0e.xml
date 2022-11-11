@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_561dec857dbd2c71c4d5477b92f4dd0e" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic</compoundname>
+    <innerfile refid="_post_logic_8cs">PostLogic.cs</innerfile>
+    <innerfile refid="_user_logic_8cs">UserLogic.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Application/Logic/"/>
+  </compounddef>
+</doxygen>

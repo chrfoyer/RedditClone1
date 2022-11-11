@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_e9bf0592b8ba5807bfcce7cbd6b0123f" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models</compoundname>
+    <innerfile refid="_post_8cs">Post.cs</innerfile>
+    <innerfile refid="_user_8cs">User.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/"/>
+  </compounddef>
+</doxygen>

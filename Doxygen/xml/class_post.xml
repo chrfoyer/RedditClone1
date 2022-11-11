@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_post" kind="class" language="C#" prot="public">
+    <compoundname>Post</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_post_1a6c9d6882f197a283ed566d80fbf682cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Post.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Post.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" line="5" column="16" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_post_1af3840875cd9b3b22770c1d356be89191" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_user" kindref="compound">User</ref></type>
+        <definition>User Post.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>Post.User</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" line="6" column="17" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_post_1aade7c12cfac2607f97b43ff04e1a57d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Post.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>Post.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" line="7" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_post_1a17901db0d0c94088e93e7699eb7c2b4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Post.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>Post.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" line="8" column="19" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_1ac6bd404e712b069ce550149a127623cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Post.Post</definition>
+        <argsstring>(User user, string title, string body)</argsstring>
+        <name>Post</name>
+        <qualifiedname>Post.Post</qualifiedname>
+        <param>
+          <type><ref refid="class_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" line="10" column="12" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" line="3" column="7" bodyfile="C:/Users/thanks/RiderProjects/RedditClone1/Domain/Models/Post.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_post_1a17901db0d0c94088e93e7699eb7c2b4f" prot="public" virt="non-virtual"><scope>Post</scope><name>Body</name></member>
+      <member refid="class_post_1a6c9d6882f197a283ed566d80fbf682cd" prot="public" virt="non-virtual"><scope>Post</scope><name>Id</name></member>
+      <member refid="class_post_1ac6bd404e712b069ce550149a127623cc" prot="public" virt="non-virtual"><scope>Post</scope><name>Post</name></member>
+      <member refid="class_post_1aade7c12cfac2607f97b43ff04e1a57d2" prot="public" virt="non-virtual"><scope>Post</scope><name>Title</name></member>
+      <member refid="class_post_1af3840875cd9b3b22770c1d356be89191" prot="public" virt="non-virtual"><scope>Post</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

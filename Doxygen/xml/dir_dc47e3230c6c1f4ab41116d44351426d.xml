@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_dc47e3230c6c1f4ab41116d44351426d" kind="dir">
+    <compoundname>C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/obj/Debug/net6.0</compoundname>
+    <innerfile refid="_blazor_wasm_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_blazor_wasm_8_assembly_info_8cs">BlazorWasm.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_blazor_wasm_8_global_usings_8g_8cs">BlazorWasm.GlobalUsings.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/RiderProjects/RedditClone1/BlazorWasm/obj/Debug/net6.0/"/>
+  </compounddef>
+</doxygen>
