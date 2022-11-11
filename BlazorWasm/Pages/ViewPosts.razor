@@ -1,0 +1,119 @@
+﻿@page "/ViewPosts"
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@using UIComponents
+@using Domain.DTOs
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+<h3>Posts</h3>
+<div class="filter-bar">
+    <div class="filters-container">
+        <img src="icons/@(doShowFilters ? "clear_" : "")funnel.png" class="funnel" @onclick="@(() => doShowFilters = !doShowFilters)" alt="Funnel"/>
+        @if (doShowFilters)
+        {
+            <div class="filter">
+                <label>Username:</label>
+                <input type="text" @bind="usernameFilter"/>
+            </div>
+            <div class="filter">
+                <label>User id:</label>
+                <input type="number" @bind="userIdFilter"/>
+            </div>
+            <div class="filter">
+                <label>Title contains:</label>
+                <input type="text" @bind="titleContainsFilter"/>
+            </div>
+            <div class="filter">
+                <label>Body contains:</label>
+                <input type="text" @bind="bodyContainsFilter"/>
+            </div>
+        }
+    </div>
+</div>
+
+<div>
+    <button @onclick="LoadPosts">Load</button>
+</div>
+
+@if (posts == null)
+{
+}
+else if (!posts.Any())
+{
+    <p>No posts to display</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Post ID</th>
+            <th>Owner ID</th>
+            <th>Title</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in posts)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.User.UserName</td>
+                <td>@item.Title</td>
+                <td><button class="btn btn-info btn-sm" @onmousedown="() => selectedId = item.Id" @onclick="ViewPost">View</button></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <label style="color: red">@msg</label>
+}
+
+@code {
+    private IEnumerable<Post>? posts;
+    private string msg = "";
+    private bool doShowFilters = false;
+    private int selectedId = -5;
+
+    private string? usernameFilter;
+    private int? userIdFilter;
+    private string? titleContainsFilter;
+    private string? bodyContainsFilter;
+
+    private async Task LoadPosts()
+    {
+        try
+        {
+            posts = await postService.GetAsync(usernameFilter, userIdFilter, titleContainsFilter, bodyContainsFilter);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+    private void ViewPost()
+    {
+        try
+        {
+            if (selectedId != -5)
+            {
+                msg = "Going to post" + selectedId;
+                navMgr.NavigateTo($"/ViewPost/{selectedId}");
+            }
+            else
+            {
+                msg = "You have to choose a post to view";
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+}

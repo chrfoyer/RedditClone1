@@ -1,0 +1,71 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "stringy",
+      "Password": null
+    },
+    {
+      "Id": 2,
+      "UserName": "fray",
+      "Password": null
+    },
+    {
+      "Id": 3,
+      "UserName": "Ralph",
+      "Password": null
+    },
+    {
+      "Id": 4,
+      "UserName": "Jean",
+      "Password": "password"
+    },
+    {
+      "Id": 5,
+      "UserName": "Greg",
+      "Password": "password"
+    },
+    {
+      "Id": 6,
+      "UserName": "Greg2",
+      "Password": "password"
+    },
+    {
+      "Id": 7,
+      "UserName": "Tom",
+      "Password": "password"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "User": {
+        "Id": 1,
+        "UserName": "stringy",
+        "Password": null
+      },
+      "Title": "string",
+      "Body": "string"
+    },
+    {
+      "Id": 2,
+      "User": {
+        "Id": 5,
+        "UserName": "Greg",
+        "Password": "password"
+      },
+      "Title": "Using CSS",
+      "Body": "Wow I really struggle using CSS"
+    },
+    {
+      "Id": 3,
+      "User": {
+        "Id": 7,
+        "UserName": "Tom",
+        "Password": "password"
+      },
+      "Title": "Why so barebones?",
+      "Body": "Why is there never any styling to these?"
+    }
+  ]
+}

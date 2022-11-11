@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RG0akkp/B5ciKlaD5HW6JXIPJNwuTU9shfXoNsaToBhHC9OXze4LiICEqF1N6fE37vw0MlOLwidIRUMWZycCNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thanks\\RiderProjects\\RedditClone1\\FileData\\FileData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thanks\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

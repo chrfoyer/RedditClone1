@@ -1,0 +1,47 @@
+﻿@page "/ViewPost/{id}"
+@using global::Domain
+@using HttpClients.ClientInterfaces
+@using Domain.Models
+@inject IPostService postService;
+
+
+<div class="card">
+    <div class="card-title d-flex justify-content-between">
+        <h6>@title</h6>
+        <div>
+            <label class="text-sm">Username: @username</label>
+        </div>
+    </div>
+    <div class="body">
+        @body
+    </div>
+</div>
+  
+@code {
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private string title = "";
+    private string body="";
+    private string username="";
+    private string msg;
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            Post post = await postService.GetByIdAsync(Id);
+            title = post.Title;
+            body = post.Body;
+            username = post.User.UserName;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = "";
+        }
+    }
+
+}
